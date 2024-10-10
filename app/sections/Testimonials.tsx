@@ -1,9 +1,12 @@
-import React from 'react'
+import Section from "../components/Section";
+import SectionHeader from "../components/SectionHeader";
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
-  )
-}
+    <Section marginBottom marginTop>
+      <SectionHeader tag="Testimonials" description="Testimonials" />
+    </Section>
+  );
+};
 
-export default Testimonials
+export default Testimonials;

@@ -1,9 +1,12 @@
-import React from 'react'
+import Section from "../components/Section";
+import SectionHeader from "../components/SectionHeader";
 
 const Process = () => {
   return (
-    <div>Process</div>
-  )
-}
+    <Section marginBottom marginTop>
+      <SectionHeader tag="Process" description="Process" />
+    </Section>
+  );
+};
 
-export default Process
+export default Process;
