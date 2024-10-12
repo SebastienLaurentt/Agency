@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 
 const Process = () => {
   return (
-    <Section marginBottom marginTop isDark>
+    <Section id="process" marginBottom marginTop isDark>
       <SectionHeader
         tag="Process"
         description="Notre méthode éprouvée pour transformer votre site web"
