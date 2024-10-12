@@ -3,8 +3,8 @@ import SectionHeader from "../components/SectionHeader";
 
 const Testimonials = () => {
   return (
-    <Section marginBottom marginTop>
-      <SectionHeader tag="Testimonials" description="Testimonials" />
+    <Section marginBottom marginTop isDark>
+      <SectionHeader tag="Testimonials" description="Écoutez nos clients satisfaits parler de leurs sites transformés" />
     </Section>
   );
 };

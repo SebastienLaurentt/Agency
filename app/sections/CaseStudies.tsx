@@ -4,7 +4,7 @@ import SectionHeader from "../components/SectionHeader";
 const CaseStudies = () => {
   return (
     <Section marginBottom marginTop>
-      <SectionHeader tag="Cases Studies" description="Cases Studies" />
+      <SectionHeader tag="Cases Studies" description="Découvrez nos réussites concrètes : l'impact de nos refontes" />
     </Section>
   );
 };
